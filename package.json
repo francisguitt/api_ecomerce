@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.4"
+  },
+  "name": "api_ecomerce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e js mjs cjs , src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francisguitt/api_ecomerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francisguitt/api_ecomerce/issues"
+  },
+  "homepage": "https://github.com/francisguitt/api_ecomerce#readme",
+  "description": ""
+}
