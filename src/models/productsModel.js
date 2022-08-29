@@ -8,16 +8,20 @@ export const Products = sequelize.define('Products', {
         type: DataTypes.INTEGER
     },
     name: {
-        type: DataTypes.STRING
+        type: DataTypes.STRING,
+        allowNull:false
     },
     description: {
-        type: DataTypes.STRING
+        type: DataTypes.STRING,
+        allowNull:false
     },
     category: {
-        type: DataTypes.STRING
+        type: DataTypes.STRING,
+        allowNull:false
     },
     price: {
-        type: DataTypes.NUMBER
+        type: DataTypes.NUMBER,
+        allowNull:false
     }
 }, {
 
