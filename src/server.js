@@ -9,7 +9,7 @@ import { router } from './routers/index.js';
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(router)
+app.use('/api', router)
 
 
 app.use((req, res) => {
